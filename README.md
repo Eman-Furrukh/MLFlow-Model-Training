@@ -37,10 +37,13 @@ python train_model.py    # can run in VS Code terminal
 ```bash
 mlflow ui                # run on command shell
 ```
--- Click on the url printed in shell to open dashboard. 
+Click on the url printed in shell to open dashboard. 
 
 ## Code Explanation
 Data Preprocessing: Reads the Iris dataset, drops missing values, and selects features for the model.
+
 Model Training: Fits a Linear Regression model on the training data.
+
 MLflow Logging: Logs the experiment, including metrics, parameters, and a plot comparing actual vs predicted values.
+
 MLflow UI: Provides a dashboard to monitor and compare multiple experiments.
