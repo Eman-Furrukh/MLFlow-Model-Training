@@ -1,0 +1,9 @@
+digest: c2b950e8
+name: dataset
+profile: '{"num_rows": 30, "num_elements": 90}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "SepalWidthCm", "required":
+  true}, {"type": "double", "name": "PetalLengthCm", "required": true}, {"type": "double",
+  "name": "PetalWidthCm", "required": true}]}'
+source: '{"tags": {"mlflow.user": "DELL", "mlflow.source.name": "train_model.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "cf18329b378dce35c433dde5fc05630dac541656"}}'
+source_type: code
